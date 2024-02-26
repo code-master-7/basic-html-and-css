@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head{
+  width: 1200px;
+  height: 20px;
+  background-color: rgb(224, 224, 224);
+}
+
+.container2{
+  width: 1200px;
+  margin:10px ;
+  display: inline-block;
+}
+
+.headContainer2{
+  background-color: #bfbfbf;
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  margin: 0 45%;
+}
+.samediv{
+  margin: 10px;
+}
+.Lcontainer2{
+  width: 49%;
+  height: 200px;
+  background-color: #bfbfbf;
+  float: left;
+}
+
+.Rcontainer2{
+  width: 49%;
+  height: 200px;
+  margin-left: 5px;
+  background-color: #bfbfbf;
+  float: right;
+}
+
+.container3{
+  width: 1200px;
+
+}
+
+.headContainer3{
+  background-color: #bfbfbf;
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px 45%;
+}
+.first4{
+  margin: 0 28%;
+}
+.last4{
+  margin: 0 28%;
+}
+.data1{
+  float: left;
+  background-color: #bfbfbf;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.footerContainer3{
+  background-color:#bfbfbf;
+  display: inline-block;
+  height: 20px;
+  width: 200px;
+  margin: 10px 40%;
+}
+
+.container4{
+  width: 1200px;
+  display: inline-block;
+}
+
+.centringLayout{
+  width: 1200px;
+  background-color: #bfbfbf;
+  display: inline-block;
+  padding: 0 22%;
+}
+.layout1{
+  background-color: #fff;
+  float: left;
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.l1Heading{
+  margin: 10px;
+  height: 20px;
+  align-self: center;
+  background-color: #bfbfbf;
+}
+
+.datal11{
+  background-color: #bfbfbf;
+  margin: 10px;
+  height: 20px;
+  align-self: center;
+  height: 150px;
+}
+
+.datal12{
+  background-color: #bfbfbf;
+  margin: 10px;
+  height: 20px;
+  align-self: center;
+  height: 150px;
+}
+
+
+/* Container 5  */
+.container5{
+  width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  float: left;
+}
+
+.headLine{
+  margin: 20px 22%;
+  width: 50%;
+  height: 50px;
+  background-color: #bfbfbf;
+  float: left;
+}
+
+.line1{
+  width: 1000px;
+  height: 100px;
+  background-color: #bfbfbf;
+  margin: 10px 5%;
+  float: left;
+}
+.button{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  background-color: #bfbfbf;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.buttonView{
+  width: 1000px;
+  float: left;
+  margin: 0 5%;
+}
+
+footer{
+  width: 1200px;
+  height: 110px;
+  background-color: #bfbfbf;
+  /* display: inline-block; */
+  float: left;
+}
+
+.footerDiv1{
+  background-color: #e3e3e3;
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  float: left;
+  margin: 5px;
+
+}
+.footerDiv2{
+  background-color: #e3e3e3;
+  height: 100px;
+  width: 500px;
+  float: right;
+  margin: 5px;
+}

@@ -4,182 +4,171 @@
   box-sizing: border-box;
 }
 
-.head{
-  width: 1200px;
-  height: 20px;
-  background-color: rgb(224, 224, 224);
+.clearfix::after{
+  clear: both;
+  content: '';
+  display: block;
 }
 
-.container2{
-  width: 1200px;
-  margin:10px ;
-  display: inline-block;
+
+body{
+  border-top: 40px solid #c4c4c4;
 }
 
-.headContainer2{
-  background-color: #bfbfbf;
-  height: 20px;
-  width: 100px;
-  display: inline-block;
-  margin: 0 45%;
-}
-.samediv{
-  margin: 10px;
-}
-.Lcontainer2{
-  width: 49%;
-  height: 200px;
-  background-color: #bfbfbf;
-  float: left;
-}
+/* Container 1 */
 
-.Rcontainer2{
-  width: 49%;
-  height: 200px;
-  margin-left: 5px;
-  background-color: #bfbfbf;
-  float: right;
-}
-
-.container3{
-  width: 1200px;
-
-}
-
-.headContainer3{
-  background-color: #bfbfbf;
-  height: 20px;
-  width: 100px;
-  display: inline-block;
-  margin: 10px 45%;
-}
-.first4{
-  margin: 0 28%;
-}
-.last4{
-  margin: 0 28%;
-}
-.data1{
-  float: left;
-  background-color: #bfbfbf;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-}
-.footerContainer3{
-  background-color:#bfbfbf;
-  display: inline-block;
-  height: 20px;
-  width: 200px;
-  margin: 10px 40%;
-}
-
-.container4{
-  width: 1200px;
-  display: inline-block;
-}
-
-.centringLayout{
-  width: 1200px;
-  background-color: #bfbfbf;
-  display: inline-block;
-  padding: 0 22%;
-}
-.layout1{
-  background-color: #fff;
-  float: left;
-  width: 200px;
-  height: 400px;
+.C1-Center{
+  margin: 25px auto;
+  width: 350px;
+  height: 40px;
   padding: 10px;
-  margin: 10px;
+  background-color: #c4c4c4;
 }
 
-.l1Heading{
-  margin: 10px;
-  height: 20px;
-  align-self: center;
-  background-color: #bfbfbf;
+.C1-Data{
+
+  width: 49.8%;
+  height: 400px;
+  background-color: #c4c4c4;
 }
 
-.datal11{
-  background-color: #bfbfbf;
-  margin: 10px;
-  height: 20px;
-  align-self: center;
-  height: 150px;
+.C1-Left{
+  float: left;
 }
 
-.datal12{
-  background-color: #bfbfbf;
-  margin: 10px;
-  height: 20px;
-  align-self: center;
-  height: 150px;
+.C1-Right{
+  float: right;
 }
 
+/* Container 2 */
 
-/* Container 5  */
-.container5{
-  width: 1200px;
-  margin: 20px auto;
+.C2-Center{
+  margin: auto;
+  margin-top: 25px;
+  width: 700px;
+  height: 50px;
+  padding: 10px;
+  background-color: #c4c4c4;
+}
+
+.data{
+  height: 280px;
+  width: 280px;
+  margin: 10px;
+  background-color: #c4c4c4;
+  float: left;
+}
+.C2-row1{
+  margin: 15px auto;
+  width: fit-content;
+  clear: both;
+}
+.C2-row2{
+  margin: 10px auto;
+  width: fit-content;
+  clear: both;
+}
+
+.C2-last-row{
+  margin: 25px auto;
+  width: 850px;
+  height: 50px;
+  padding: 10px;
+  background-color: #c4c4c4;
+}
+
+/* Container 3 */
+
+.Container3{
+  background-color: #c4c4c4;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.card{
   background-color: #fff;
   float: left;
+  width: calc((100% - 120px) / 3);
+  margin: 20px;
 }
 
-.headLine{
-  margin: 20px 22%;
-  width: 50%;
+.card-heading{
+  background-color: #c4c4c4;
+  margin: 30px auto;
+  width: 280px;
   height: 50px;
-  background-color: #bfbfbf;
-  float: left;
 }
 
-.line1{
-  width: 1000px;
-  height: 100px;
-  background-color: #bfbfbf;
-  margin: 10px 5%;
+.card-Data{
+  margin: 30px auto;
+  width: 280px;
+  height: 300px;
+  background-color: #c4c4c4;
+}
+
+/* Container 4 */
+
+.Conatiner4{  
+  margin: 10px auto;
+}
+
+.C4-Center{
+  margin: 50px auto;
+  background-color: #c4c4c4;
+  width: 450px;
+  height: 70px;
+}
+.C4-Data{
+  margin: 10px auto;
+  width: 800px;
+  height: 80px;
+  background-color:#c4c4c4;
+}
+.C4-LargeData{
+  margin: 10px auto;
+  width: 800px;
+  height: 300px;
+  background-color: #c4c4c4;
+}
+.Button-Collection{
+  margin: auto;
+  width: 800px ;
+}
+.Button{
+  margin: 20px 0;
+  height: 80px;
+  width: 390px;
+  background-color: #c4c4c4;
+}
+.C4-Left{
   float: left;
+  margin-left:0 ;
 }
-.button{
-  width: 300px;
-  height: 50px;
-  margin: 5px;
-  background-color: #bfbfbf;
-}
-.left{
-  float: left;
-}
-.right{
+.C4-Right{
   float: right;
-}
-.buttonView{
-  width: 1000px;
-  float: left;
-  margin: 0 5%;
+  margin-right:0 ;
 }
 
-footer{
-  width: 1200px;
-  height: 110px;
-  background-color: #bfbfbf;
-  /* display: inline-block; */
-  float: left;
+/* Container 5 */
+
+.Container5{
+  background-color: #c4c4c4;
+  margin-top: 50PX;
 }
 
-.footerDiv1{
-  background-color: #e3e3e3;
-  height: 100px;
-  width: 500px;
-  margin: 0 auto;
-  float: left;
-  margin: 5px;
-
+.C5-Button{
+  height: 150px;
+  width: calc((100% - 55px) / 2);
+  margin: 20px;
+  background-color: #fbfbfb;
 }
-.footerDiv2{
-  background-color: #e3e3e3;
-  height: 100px;
-  width: 500px;
+
+.C5-Left{
+  float: left;
+  margin-right: 5px;
+}
+
+.C5-Right{
   float: right;
-  margin: 5px;
+  margin-left: 5px;
 }
